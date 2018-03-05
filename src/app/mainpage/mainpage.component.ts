@@ -4,7 +4,7 @@ import {HttpClient} from '@angular/common/http';
 import {User} from '../_models';
 import {Observable} from 'rxjs/Observable';
 import { GetAllUsersService } from '../_services/index';
-
+import * as $ from 'jquery';
 @Component({
     moduleId: module.id.toString(),
   selector: 'app-mainpage',
@@ -21,9 +21,11 @@ export class MainpageComponent implements OnInit {
   }
 
   ngOnInit() {
+      
       this.fname = localStorage.getItem('firstname');
       this.lname = localStorage.getItem('lastname');
       this.getAll();
+
   }
   getAll() {
       this.getAllUsersService.getAllUsers().subscribe(
