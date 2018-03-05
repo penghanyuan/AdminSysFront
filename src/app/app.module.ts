@@ -14,7 +14,7 @@ import { AlertService, AuthenticationService, UserService, GetAllUsersService } 
 import { HomeComponent } from './home/index';
 import { LoginComponent } from './login/index';
 import { RegisterComponent } from './register/index';
-import { UserlistComponent } from './userlist/userlist.component';
+
 
 
 @NgModule({
@@ -31,7 +31,6 @@ import { UserlistComponent } from './userlist/userlist.component';
         LoginComponent,
         RegisterComponent,
         MainpageComponent,
-        UserlistComponent
     ],
     providers: [
         AuthGuard,

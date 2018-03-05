@@ -33,6 +33,7 @@
         "../node_modules/bootstrap/dist/js/bootstrap.js",
         "../node_modules/icheck/icheck.js",
         "../node_modules/admin-lte/dist/js/app.min.js",
+        "../node_modules/datatables/media/js/jquery.dataTables.min.js",
         "assets/js/adminLTEOptions.js",
         "assets/js/scripts.js"
       ],

@@ -21,11 +21,9 @@ export class MainpageComponent implements OnInit {
   }
 
   ngOnInit() {
-      
       this.fname = localStorage.getItem('firstname');
       this.lname = localStorage.getItem('lastname');
       this.getAll();
-
   }
   getAll() {
       this.getAllUsersService.getAllUsers().subscribe(
