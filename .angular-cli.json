@@ -25,7 +25,9 @@
         "../node_modules/font-awesome/css/font-awesome.css",
         "../node_modules/ionicons/dist/css/ionicons.css",
         "_variables.less",
-        "../node_modules/icheck/skins/flat/blue.css"
+        "../node_modules/icheck/skins/flat/blue.css",
+        "../node_modules/datatables/media/css/jquery.dataTables.min.css",
+        "../node_modules/datatables-bootstrap/css/dataTables.bootstrap.min.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",

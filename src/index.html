@@ -11,11 +11,12 @@
   <app-root></app-root>
 </body>
 <script>
-    $(function () {
+    $(document).ready(function () {
+     
         $('#list').DataTable({
-            'paging'      : true,
+            'paging'      : false,
             'lengthChange': false,
-            'searching'   : false,
+            'searching'   : true,
             'ordering'    : true,
             'info'        : true,
             'autoWidth'   : false

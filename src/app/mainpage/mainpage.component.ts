@@ -4,7 +4,7 @@ import {HttpClient} from '@angular/common/http';
 import {User} from '../_models';
 import {Observable} from 'rxjs/Observable';
 import { GetAllUsersService } from '../_services/index';
-import * as $ from 'jquery';
+
 @Component({
     moduleId: module.id.toString(),
   selector: 'app-mainpage',
