@@ -93,8 +93,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Page Header
-        <small>Optional description</small>
+        Main Page
+        <small>First version</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
@@ -111,7 +111,7 @@
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-          <table id="list" class="table table-bordered table-striped">
+          <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover" id="list" class="table table-bordered table-striped">
             <thead>
             <tr>
               <th>Id</th>

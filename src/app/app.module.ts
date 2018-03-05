@@ -14,6 +14,7 @@ import { AlertService, AuthenticationService, UserService, GetAllUsersService } 
 import { HomeComponent } from './home/index';
 import { LoginComponent } from './login/index';
 import { RegisterComponent } from './register/index';
+import { DataTablesModule } from 'angular-datatables';
 
 
 
@@ -22,6 +23,7 @@ import { RegisterComponent } from './register/index';
         BrowserModule,
         FormsModule,
         HttpClientModule,
+        DataTablesModule,
         routing
     ],
     declarations: [
