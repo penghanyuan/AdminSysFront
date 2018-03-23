@@ -1,6 +1,7 @@
 # AdminSys
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+Used with [Admin](https://github.com/penghanyuan/AdminSysBack.git) implemented with Laravel as an API server.
 
 
 ## Environment
